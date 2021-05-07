@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>|Catch The Gaali|</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch The Gaali</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+        <h1>Choose Gaali</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>BC</p>
+                    <img src="./img/bc.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Macchar</p>
+                    <img src="./img/mos.png" alt="mosquito">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>MC</p>
+                    <img src="./img/mc.png" alt="spider">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>BSDK</p>
+                    <img src="./img/bsdk.png" alt="roach">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">Maan jao bhai nhi pakad paoge sbko<br> AITHE KAITHE BENTO</h5>
+        <div class="refresh"><i class="fas fa-redo-alt"></i></div>
+        <div class="aud"><i class="fas fa-kiwi-bird"></i></i></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
